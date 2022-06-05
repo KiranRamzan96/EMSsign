@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+          <ImageView
+               android:src="@drawable/icon"
+               android:layout_width="300dp"
+               android:layout_height="150dp"
+               android:layout_gravity="center"
+               android:layout_marginBottom="20dp"
+               android:id="@+id/imgAddEmployer" />
+  <Button
+       android:text="Capture"
+        
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:id="@+id/CaptureButton"
+        android:background="@drawable/buttonlayout"  />
+    <EditText
+         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="CNIC"
+        android:background="@drawable/textlayout"
+        android:id="@+id/TextIdAddEmployer" />
+
+     <EditText
+         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:hint="Name"
+        android:background="@drawable/textlayout"
+        android:id="@+id/TextNameAddEmployer" />
+ <EditText
+         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="Mobile No"
+        android:background="@drawable/textlayout"
+        android:id="@+id/TextMobileNoAddEmployer" />
+ <EditText
+         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:hint="Designation"
+        android:background="@drawable/textlayout"
+        android:id="@+id/TextDesignationAddEmployer" />
+
+    <Button
+        android:text="Save"
+        android:layout_marginTop="15dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:id="@+id/ButtonSaveAddEmployer"
+        android:background="@drawable/buttonlayout"/>
+
+</LinearLayout>
